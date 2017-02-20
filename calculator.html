@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href = "style.css" />
+    <script src="calcJS.js"></script>
+</head>
+<body>
+<div class="menu1">
+    <header>
+        <p><img src="webLogo.png"  alt="логотип"></p>
+        <h1>Основы Web-технологий</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li>
+                    <a href="technologies.html">Web-технологии</a>
+                    <span class="menu">
+        <ul>
+            <li><a href="html5.html">HTML5</a></li>
+            <li><a href="css3.html">CSS3</a></li>
+            <li><a href="javaScript.html">JavaScript</a></li>
+        </ul>
+            </span>
+                </li>
+                <li><a href="calculator.html">Калькулятор</a></li>
+                <li><a href="test.html">Тест</a></li>
+            </ul>
+        </div>
+    </header>
+</div>
+<div class="base">
+    <div class="calc">
+        <form id="calc" name="calc">
+            <table border="1">
+                <tr>
+                    <td class="qwe" colspan="5">
+                        <input class="field" type="text" name="input">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button">7</button>
+                    </td>
+                    <td>
+                        <button type="button">8</button>
+                    </td>
+                    <td>
+                        <button type="button">9</button>
+                    </td>
+                    <td>
+                        <button type="button">/</button>
+                    </td>
+                    <td>
+                        <button type="button">C</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button">4</button>
+                    </td>
+                    <td>
+                        <button type="button">5</button>
+                    </td>
+                    <td>
+                        <button type="button">6</button>
+                    </td>
+                    <td>
+                        <button type="button">*</button>
+                    </td>
+                    <td>
+                        <button type="button">&plusmn;</button>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <button type="button">1</button>
+                    </td>
+                    <td>
+                        <button type="button">2</button>
+                    </td>
+                    <td>
+                        <button type="button">3</button>
+                    </td>
+                    <td>
+                        <button type="button">-</button>
+                    </td>
+
+                    <td class="equals-out" rowspan="2">
+                        <button class="equals-in" type="button">=</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="null" type="button">0</button>
+                    </td>
+                    <td>
+                        <button type="button">.</button>
+                    </td>
+                    <td>
+                        <button type="button">+</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</div>
+    </div>
+<div class="foot">
+<footer>
+    <address><a href="mail@mail">Пишите:mail@mail</a></address>
+    © Фамилия И.О.,год
+</footer>
+    </div>
+<script src="calcJS.js"></script>
+</body>
+</html>

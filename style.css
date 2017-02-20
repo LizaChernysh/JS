@@ -1,0 +1,161 @@
+* { /*Чистка*/
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #808080;
+}
+.base{
+    border: 3px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.menu1{
+    border: 3px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.foot{
+    border: 3px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+
+}
+ul{
+    list-style-type: none;
+}
+ul>li {
+    display: inline;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 6px;
+    width: 65px;
+    padding: 5px;
+    text-align: left;
+}
+.menu1:hover .menu {
+    display: inline;
+}
+.menu1{
+    position: relative;
+}
+img{
+    float: left;
+    width:180px;
+    height:100px;
+}
+h1{
+    text-align: center;
+    font-size: 180%; /* Размер шрифта в процентах */
+    font-weight: bold;
+    padding: 30px 80px;
+}
+.nav{
+    clear: both;
+    text-align: center;
+    padding: 0px 0px 0px 60px;
+    list-style-type: none;
+}
+.base1{
+    border: 3px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: "monospace";
+    padding: 0;
+}
+.list{
+    padding: 0px 0px 0px 25px;
+}
+dd{
+    padding: 0px 0px 0px 40px;
+}
+ul.list >li{
+    list-style-type:disc;
+    display: list-item;
+}
+.dopInf{
+    float: right;
+    border: 3px solid grey;
+    border-radius: 7px;
+    height: 550px;
+    width: 200px;
+    background-color: darkgray;
+    font-size: 12px;
+}
+h2,h3,h4{
+    padding: 4px 0px 4px;
+}
+
+.calc {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+button{
+    width: 54px;
+    height: 30px;
+    margin-left: 0px;
+    margin-bottom: 4px;
+}
+
+.field {
+    width: 280px;
+    height: 26px;
+    margin-bottom: 2px;
+}
+
+.null {
+    width: 100%;
+}
+
+.equals-out {
+    vertical-align: middle;
+}
+
+.equals-in {
+    height: 66px;
+
+}
+
+.test input {
+    font-size: small;
+    width: 75px;
+    height: 23px;
+    padding-bottom: 1px;
+}
+
+table, tr, td, form {
+    border: none;
+}
+#test button {
+    font-size: small;
+    width: 75px;
+    height: 23px;
+    padding-bottom: 1px;
+}
+
+#test input {
+    margin-left: 3px;
+}
